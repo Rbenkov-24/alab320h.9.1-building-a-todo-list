@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    transition: border 0.2s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #80bdff;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 5px;
+    flex: 1;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .todo-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

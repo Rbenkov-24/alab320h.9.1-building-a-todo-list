@@ -1,0 +1,21 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  span {
+    flex-grow: 1;
+    color: #495057;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+ 
